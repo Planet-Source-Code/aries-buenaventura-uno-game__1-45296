@@ -1,0 +1,135 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+[Package|Standard Setup Package 1|Uno Game]
+Icon1=uno.exe
+Title1=Uno Game
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\VB Cards\Uno\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\system32\msscript.ocx=
+C:\Important Files\Trigonometric Functions\Trigonometric Functions\Trigonometric Functions.exe=
+C:\Important Files\Trigonometric Functions\Trigonometric Functions\Package\Support\comdlg32.ocx=
+C:\Important Files\Trigonometric Functions\Trigonometric Functions\Package\Support\FM20.DLL=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|Standard Setup Package 1|Files Added]
+c:\vb cards\uno\uno.hlp=
+c:\vb cards\uno\list.dat=
+c:\vb cards\uno\setting.dat=
+c:\vb cards\uno\logo.bmp=
+C:\Important Files\Trigonometric Functions\Trigonometric Functions\Trigonometric Functions.exe=
+C:\Important Files\Trigonometric Functions\Trigonometric Functions\Package\Support\comdlg32.ocx=
+C:\Important Files\Trigonometric Functions\Trigonometric Functions\Package\Support\FM20.DLL=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\VB Cards\Uno\uno.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\msscript.ocx=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\VB Cards\Uno\UNO.HLP=Yes
+C:\VB Cards\Uno\List.dat=Yes
+C:\VB Cards\Uno\Setting.dat=Yes
+C:\VB Cards\Uno\logo.bmp=Yes
+C:\Important Files\Trigonometric Functions\Trigonometric Functions\Trigonometric Functions.exe=Yes
+C:\Important Files\Trigonometric Functions\Trigonometric Functions\Package\Support\comdlg32.ocx=Yes
+C:\Important Files\Trigonometric Functions\Trigonometric Functions\Package\Support\FM20.DLL=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\VB Cards\Uno\uno.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msscript.ocx=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\VB Cards\Uno\UNO.HLP=$(AppPath)
+C:\VB Cards\Uno\List.dat=$(AppPath)
+C:\VB Cards\Uno\Setting.dat=$(AppPath)
+C:\VB Cards\Uno\logo.bmp=$(AppPath)
+C:\Important Files\Trigonometric Functions\Trigonometric Functions\Trigonometric Functions.exe=$(AppPath)
+C:\Important Files\Trigonometric Functions\Trigonometric Functions\Package\Support\comdlg32.ocx=$(WinSysPath)
+C:\Important Files\Trigonometric Functions\Trigonometric Functions\Package\Support\FM20.DLL=$(WinSysPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\VB Cards\Uno\uno.exe=No
+C:\VB Cards\Uno\UNO.HLP=No
+C:\VB Cards\Uno\List.dat=No
+C:\VB Cards\Uno\Setting.dat=No
+C:\VB Cards\Uno\logo.bmp=No
+C:\Important Files\Trigonometric Functions\Trigonometric Functions\Trigonometric Functions.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=multi
+Size=1.44 MB
+Title=Programs
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=My Work
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|My Work]
+Icon1=uno.exe
+Title1=Uno Game
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2="Trigonometric Functions.exe"
+Title2=Trigonometrical Functions
+StartIn2=$(AppPath)
+Key2=Icon4
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\VB Cards\Uno\Package
+ProjectFolder=C:\VB Cards\Uno
+ServerSideCab=
+File1=C:\VB Cards\Uno\Package\setup.exe
+File2=C:\VB Cards\Uno\Package\Setup.Lst
+File3=C:\VB Cards\Uno\Package\uno1.CAB
+File4=C:\VB Cards\Uno\Package\uno2.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
